@@ -22,14 +22,19 @@ body
 }
 @keyframes loginanime
 {
-    from {height:0px;}
-    to {height:400px;}
+    from {height:0px;background-color: #2047f8;}
+    to {height:400px;background-color: #9fb0fd;}
 }
 
 h1
 {
     margin-bottom:10%;
     font-size:40px;
+}
+@keyframes headanime
+{
+    from {margin-top:0%;font-size:10px;}
+    to {margin-top:5%;font-size:40px;}
 }
 input[type="text"],input[type="password"],input[type="email"]
 {
@@ -64,6 +69,16 @@ input[type="submit"]:hover
     background-color:#3e57c4ee;
 
 }
+@keyframes inputanime
+{
+    from {margin:unset;margin-top:0;padding:0px;width:0%;font-size:5px;border-radius:0px; }
+    to {margin: auto;margin-top:5%;padding:10px;width:70%;font-size:15px;border-radius:5px; }
+}
+@keyframes btnanime
+{
+    from {font-size:0px;background-color: black;}
+    to {font-size:25px;background-color: #2047f8;}
+}
 p
 {
     font-size:20px;
@@ -88,6 +103,6 @@ a
 }
 @keyframes signupanime
 {
-    from {height:0px;}
-    to {height:460px;}
+    from {height:0px;background-color: #2047f8;}
+    to {height:460px;background-color: #9fb0fd;}
 }
