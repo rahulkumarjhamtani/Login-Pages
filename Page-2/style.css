@@ -3,17 +3,16 @@ body
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgb(255, 247, 238);
 }
-.form
+#form
 {
     width:40%;
-    padding:20px;
     margin:auto;
+    margin-top:5%;
 }
 #login
 {
     display: block;
-    margin-top:2%;
-    padding:50px;
+    padding:10px 0px 50px 0px;
     height:400px;
     background-color: #9fb0fd;
     border-radius:20px;
@@ -21,6 +20,12 @@ body
     z-index: 1;
     text-align: center;
 }
+@keyframes loginanime
+{
+    from {height:0px;}
+    to {height:400px;}
+}
+
 h1
 {
     margin-bottom:10%;
@@ -73,11 +78,16 @@ a
 {
     display: none;
     margin-top:2%;
-    padding:50px;
+    padding:10px 0px 60px 0px;
     height:460px;
     background-color: #9fb0fd;
     border-radius:20px;
     position:relative;
     z-index: 1;
     text-align: center;
+}
+@keyframes signupanime
+{
+    from {height:0px;}
+    to {height:460px;}
 }

@@ -1,10 +1,12 @@
 function showsignup()
 {
+    document.getElementById('signup').style.animation = 'signupanime 0.5s 1';
     document.getElementById('login').style.display = 'none';
     document.getElementById('signup').style.display = 'block';
 }
 function showlogin()
 {
+    document.getElementById('login').style.animation = 'loginanime 0.5s 1';
     document.getElementById('login').style.display = 'block';
     document.getElementById('signup').style.display = 'none';
 }
