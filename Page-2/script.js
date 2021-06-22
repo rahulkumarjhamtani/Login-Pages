@@ -6,6 +6,8 @@ function showsignup()
     document.getElementById('password2').style.animation = 'inputanime 0.7s 1';
     document.getElementById('email').style.animation = 'inputanime 0.7s 1';
     document.getElementById('btn2').style.animation = 'btnanime 0.7s 1';
+    document.getElementById('para2').style.animation = 'paraanime 1.2s 1';
+    document.getElementById('link2').style.animation = 'linkanime 1.2s 1';
     document.getElementById('login').style.display = 'none';
     document.getElementById('signup').style.display = 'block';
 }
@@ -16,6 +18,8 @@ function showlogin()
     document.getElementById('username').style.animation = 'inputanime 0.7s 1';
     document.getElementById('password').style.animation = 'inputanime 0.7s 1';
     document.getElementById('btn').style.animation = 'btnanime 0.7s 1';
+    document.getElementById('para1').style.animation = 'paraanime 1.2s 1';
+    document.getElementById('link1').style.animation = 'linkanime 1.2s 1';
     document.getElementById('login').style.display = 'block';
     document.getElementById('signup').style.display = 'none';
 }

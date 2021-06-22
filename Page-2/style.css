@@ -83,11 +83,21 @@ p
 {
     font-size:20px;
 }
+@keyframes paraanime
+{
+    from {margin-right: 10%;}
+    to {margin-right: 0%;}
+}
 a
 {
     text-decoration: none;
     color:blue;
     cursor: pointer;
+}
+@keyframes linkanime
+{
+    from {margin-left: 10%;}
+    to {margin-left: 0%;}
 }
 #signup
 {
