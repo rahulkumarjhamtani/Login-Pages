@@ -60,13 +60,13 @@ input[type="submit"]
     font-weight: bold;
     text-align: center;
     padding: 14px 35px;
-    border-radius:24px;
+    border-radius:14px;
     transition:background-color 0.3s, color 0.3s;
     cursor: pointer;
 }
 input[type="submit"]:hover
 {
-    background-color:#3e57c4ee;
+    background-color:#3a54c7ee;
 
 }
 @keyframes inputanime
