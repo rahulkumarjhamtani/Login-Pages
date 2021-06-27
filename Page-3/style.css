@@ -73,21 +73,37 @@ input[type="submit"]:hover
     background-color:#0a1c6eee;
 
 }
-span
+.social-icons
 {
-    font-size:35px;
+    margin:auto;
+    text-align: center;
+}
+.social
+{
+    font-size:30px;
     color:black;
     margin-right:4%;
+    padding:10px;
+    transition: all 0.5s;
+
 }
 span:hover
 {
-    color:rgb(43, 43, 250);
+    color:rgb(32, 32, 255);
 }
 @media (max-width:575px)
 {
     input[type="text"],input[type="password"],input[type="email"],span
     {
         font-size:15px;
+    }
+    .social
+    {
+        margin-top:2%;
+    }
+    #login
+    {
+        height:550px;
     }
     #form
     {
@@ -96,6 +112,10 @@ span:hover
 }
 @media (min-width:576px) and (max-width:767px)
 {
+    #login
+    {
+        height:550px;
+    }
     #form
     {
         width:80%;
@@ -103,6 +123,10 @@ span:hover
 }
 @media (min-width:768px) and (max-width:991px)
 {
+    #login
+    {
+        height:560px;
+    }
     #form
     {
         width:60%;
